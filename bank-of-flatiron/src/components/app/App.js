@@ -7,8 +7,8 @@ function App() {
   
   return (
     <center>
-      <div className="bg-gray-400 h-10">
-        <p className='uppercase font-medium'>Royal Bank of Flatiron</p>
+      <div className=" h-20 rounded-lg bg-gray-400 shadow-lg shadow-indigo-500/50">
+        <p className='uppercase font-medium text-[28px]'>Royal Bank of Flatiron</p>
       </div>
       <OutputShowing/>
     </center>

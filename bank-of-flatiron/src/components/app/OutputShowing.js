@@ -13,7 +13,7 @@ function OutputShowing (){
 
     useEffect(()=>{
 
-        fetch("http://localhost:3000/transactions" + query)
+        fetch("http://localhost:3000/transactions?q=" + query)
             .then((res)=>res.json())
             .then(transaction => setTransaction(transaction))
             }, [query])

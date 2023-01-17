@@ -14,7 +14,7 @@ function DisplayTransactions({transactions}){
     })
 
     return(
-        <table className="border-separate border border-slate-400 ...">
+        <table className="border-separate border border-slate-400 ... w-max">
         <tbody>
             <tr>
             <th className="border border-slate-300 ...">Date</th>
