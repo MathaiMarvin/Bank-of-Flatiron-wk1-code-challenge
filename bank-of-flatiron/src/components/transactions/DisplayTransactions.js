@@ -13,13 +13,13 @@ function DisplayTransactions({transactions}){
     })
 
     return(
-        <table>
+        <table className="border-separate border border-slate-400 ...">
         <tbody>
             <tr>
-            <th>Date</th>
-            <th>Description</th>
-            <th>Category</th>
-            <th>Amount</th>
+            <th className="border border-slate-300 ...">Date</th>
+            <th className="border border-slate-300 ...">Description</th>
+            <th className="border border-slate-300 ...">Category</th>
+            <th className="border border-slate-300 ...">Amount</th>
             </tr>
         
             {listedTransactions}

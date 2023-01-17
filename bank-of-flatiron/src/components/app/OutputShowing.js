@@ -17,9 +17,7 @@ function OutputShowing (){
             .then((res)=>res.json())
             .then((transaction) => {
                 console.log(transaction)})
-
-
-    }, [query])
+            }, [query])
   
 
     function searchHandling(e){

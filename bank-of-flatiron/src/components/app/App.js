@@ -6,12 +6,12 @@ function App() {
   
   
   return (
-    <div>
-      <div>
-        <h2>Royal Bank of Flatiron</h2>
+    <center>
+      <div className="bg-gray-400 h-10">
+        <p className='uppercase font-medium'>Royal Bank of Flatiron</p>
       </div>
       <OutputShowing/>
-    </div>
+    </center>
   );
 }
 
