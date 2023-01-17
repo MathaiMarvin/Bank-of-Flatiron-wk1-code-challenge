@@ -2,13 +2,14 @@ import GetTransactions from "./GetTransactions";
 import React from "react";
 
 function DisplayTransactions({transactions}){
-    const listedTransactions=transactions.map((data)=>{
+    const listedTransactions = transactions.map((item)=>{
 
-        return <GetTransactions key={data.id} 
-        date={data.date}
-        description= {data.description}
-        category= {data.category}
-        amount={data.amount}
+        return <GetTransactions 
+        key={item.id} 
+        date={item.date}
+        description= {item.description}
+        category= {item.category}
+        amount={item.amount}
         />
     })
 

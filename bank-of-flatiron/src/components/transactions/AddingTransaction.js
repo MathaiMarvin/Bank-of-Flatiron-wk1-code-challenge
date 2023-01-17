@@ -1,5 +1,4 @@
 import React, {useState} from "react"
-import GetTransactions from "./GetTransactions"
 
 function AddingTransaction(){
     const [date, setDate] = useState("")
@@ -8,7 +7,7 @@ function AddingTransaction(){
     const [amount, setAmount] = useState("")
 
     function submission (e){
-        fetch("https://mathaimarvin.github.io/server-flatiron/db.json/transactions", {
+        fetch("http://localhost:3000/transactions", {
             method: "POST",
             headers: {
                 "Content-type": "application/json"

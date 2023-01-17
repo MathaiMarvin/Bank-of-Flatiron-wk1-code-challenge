@@ -6,17 +6,16 @@ import AddingTransaction from '../transactions/AddingTransaction';
 
 function OutputShowing (){
 
-    const transactionsUrl = "https://mathaimarvin.github.io/server-flatiron/db.json"
+    
 
     const[transaction, setTransaction] = useState ([])
     const [query, setQuery] = useState ("")
 
     useEffect(()=>{
 
-        fetch("https://mathaimarvin.github.io/server-flatiron/db.json" + query)
+        fetch("http://localhost:3000/transactions" + query)
             .then((res)=>res.json())
-            .then((transaction) => {
-                console.log(transaction)})
+            .then(transaction => setTransaction(transaction))
             }, [query])
   
 
