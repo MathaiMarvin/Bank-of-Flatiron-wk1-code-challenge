@@ -29,7 +29,7 @@ function AddingTransaction(){
             <div>
                 <form onSubmit={submission}>
                     <div>
-                        <input className="p-3" value={date} onChange={(e)=>{setDate(e.target.value)}} type="date" name="date"/>
+                        <input className="p-3 border border-gray-300" value={date} onChange={(e)=>{setDate(e.target.value)}} type="date" name="date"/>
                         <input className="border border-gray-300 rounded-lg bg-gray-50 mr-10 ml-8 p-3" value={description} onChange={(e)=>{setDescription(e.target.value)}} type="text" name="description" placeholder="description"/>
                         <input className="border border-gray-300 rounded-lg bg-gray-50 mr-10 ml-8 p-3" value={category} onChange={(e)=>{setCategory(e.target.value)}} type="text" name="category" placeholder="category"/>
                         <input className="border border-gray-300 rounded-lg bg-gray-50 mr-10 ml-8 p-3" value={amount} onChange={(e)=>{setAmount(e.target.value)}} type="text" name="amount" placeholder="amount" step="0.01"/>
