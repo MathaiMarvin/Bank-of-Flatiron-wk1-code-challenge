@@ -7,6 +7,7 @@ function AddingTransaction(){
     const [amount, setAmount] = useState("")
 
     function submission (e){
+        e.preventDefault()
         fetch("https://json-server-vercel-bay.vercel.app/transactions", {
             method: "POST",
             headers: {
