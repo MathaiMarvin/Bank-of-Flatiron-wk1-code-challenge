@@ -2,7 +2,7 @@
 # Description
 The code challenge entailed getting Bank of Flatiron's transactional data from a json file  and using the React Library to display the data. The constituents of the application include a search bar where the user can input information and the transactions will be filtered based on the input. The user is able to add their own financial transactional data which is inturn persistently added to the db.json file. The application is built upon the [react](https://reactjs.org/) library
 
-<img src="./project.jpg" alt="Bank of Flatiron" width="300" height ="400"/>
+<img src="./Bank-of-Flatiron-wk1-code-challenge/bank-of-flatiron/project.jpg" alt="Bank of Flatiron" width="300" height ="400"/>
 
 # Getting Started
 In order to be able to use this particular repository one needs to have the following:
