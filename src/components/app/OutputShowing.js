@@ -13,7 +13,7 @@ function OutputShowing (){
 
     useEffect(()=>{
 
-        fetch("https://json-server-vercel-bay.vercel.app/transactions?q=" + query)
+        fetch("https://transactions-delta.vercel.app/transactions?q=" + query)
             .then((res)=>res.json())
             .then(transaction => setTransaction(transaction))
             }, [query])

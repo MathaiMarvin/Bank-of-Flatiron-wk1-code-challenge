@@ -8,7 +8,7 @@ function AddingTransaction(){
 
     function submission (e){
         
-        fetch("https://json-server-vercel-bay.vercel.app/transactions", {
+        fetch("https://transactions-delta.vercel.app/transactions", {
             method: "POST",
             headers: {
                 "Content-type": "application/json"
